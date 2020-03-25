@@ -22,7 +22,8 @@ class MyApp extends StatelessWidget {
           //home: CourseSchedulePage(title: 'My Course Schedule'),
           home: Wrapper(title: 'Study Buddy'),
           routes: <String, WidgetBuilder>{
-            "/select-classes": (BuildContext context) => CourseSchedulePage(),
+            "/select-classes": (BuildContext context) =>
+                new CourseSchedulePage(),
           }),
     );
   }
