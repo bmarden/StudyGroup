@@ -120,7 +120,7 @@ void main() {
       expect(message.groupId, 'grp1Id');
     });
 
-    test('Message.fromFirestore, partial data', () {
+    test('Message.fromMap, partial data', () {
       var messageSnap = DocumentSnapshotMock();
       messageSnap.mockData = Map<String, dynamic>.from({
         'userName': 'usr',
